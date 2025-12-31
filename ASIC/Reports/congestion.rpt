@@ -1,0 +1,217 @@
+**WARN: (IMPFP-3803):	Command "reportRoute" is obsolete and has been replaced by "report_route". 
+The obsolete command still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "report_route".
+Type 'man IMPFP-3803' for more detail.
+#create default rule from bind_ndr_rule rule=0x7fd87401b660 0x7fd80f116558
+#Invoke dbWirePreImport deleteTR=0 convert_unrouted=0 selected_only=0 (nr_selected_net=0)
+#num needed restored net=0
+#need_extraction net=0 (total=17350)
+#WARNING (NRDB-2005) SPECIAL_NET VDD has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-2005) SPECIAL_NET VSS has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#	no debugging net set
+#
+# statistics:
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:01
+#Increased memory = 54.79 (MB)
+#Total memory = 2025.89 (MB)
+#Peak memory = 2033.07 (MB)
+#Number of warnings = 2
+#Total number of warnings = 2
+#Number of fails = 0
+#Total number of fails = 0
+#Complete  on Sun Dec  7 08:04:55 2025
+#
+*** Statistics for net list integrator_chain_with_downsampler_comb_nohold_with_fir128 ***
+Number of cells      = 15934
+Number of nets       = 16314
+Number of tri-nets   = 0
+Number of degen nets = 114
+Number of pins       = 60654
+Number of i/os       = 207
+
+Number of nets with    1 terms = 114 (0.7%)
+Number of nets with    2 terms = 11297 (69.2%)
+Number of nets with    3 terms = 3975 (24.4%)
+Number of nets with    4 terms = 344 (2.1%)
+Number of nets with    5 terms = 160 (1.0%)
+Number of nets with    6 terms = 40 (0.2%)
+Number of nets with    7 terms = 9 (0.1%)
+Number of nets with    9 terms = 2 (0.0%)
+Number of nets with >=10 terms = 373 (2.3%)
+
+*** 63 Primitives used:
+Primitive ADDFX1 (163 insts)
+Primitive ADDFX2 (29 insts)
+Primitive AND2X2 (141 insts)
+Primitive AND2X4 (3 insts)
+Primitive AND3X2 (6 insts)
+Primitive AOI211X1 (52 insts)
+Primitive AND4X2 (26 insts)
+Primitive AOI21X1 (801 insts)
+Primitive AOI21XL (1 insts)
+Primitive AOI221X1 (12 insts)
+Primitive AOI222X1 (184 insts)
+Primitive AOI222XL (25 insts)
+Primitive AOI22X1 (4673 insts)
+Primitive AOI22XL (108 insts)
+Primitive AOI2BB1X1 (3 insts)
+Primitive AOI2BB1XL (9 insts)
+Primitive AOI2BB2X1 (2 insts)
+Primitive AOI31X1 (8 insts)
+Primitive DFFX1 (68 insts)
+Primitive DFFHQX1 (4234 insts)
+Primitive DFFHQXL (1 insts)
+Primitive DFFTRX1 (115 insts)
+Primitive DFFTRXL (1 insts)
+Primitive INVX1 (2537 insts)
+Primitive INVX4 (3 insts)
+Primitive INVXL (332 insts)
+Primitive MXI2X1 (3 insts)
+Primitive NAND2X1 (124 insts)
+Primitive NAND2X4 (1 insts)
+Primitive NAND2XL (39 insts)
+Primitive NAND2BX1 (12 insts)
+Primitive NAND2BX4 (2 insts)
+Primitive NAND3X1 (5 insts)
+Primitive NAND3BX1 (1 insts)
+Primitive NAND4X1 (67 insts)
+Primitive NAND4BXL (2 insts)
+Primitive NOR2X1 (305 insts)
+Primitive NOR2X4 (1 insts)
+Primitive NOR2XL (34 insts)
+Primitive NOR2BX1 (56 insts)
+Primitive NOR2BXL (1 insts)
+Primitive NOR3X1 (1 insts)
+Primitive NOR4X1 (2 insts)
+Primitive OAI211X1 (3 insts)
+Primitive OAI21XL (25 insts)
+Primitive OAI221XL (2 insts)
+Primitive OAI222XL (2 insts)
+Primitive OAI22XL (1 insts)
+Primitive OAI2BB1X1 (57 insts)
+Primitive OAI2BB2X1 (5 insts)
+Primitive OAI2BB2XL (1402 insts)
+Primitive OAI31X1 (1 insts)
+Primitive OAI31XL (4 insts)
+Primitive OAI32X1 (1 insts)
+Primitive OAI33X1 (1 insts)
+Primitive OR2X2 (4 insts)
+Primitive OR2X4 (1 insts)
+Primitive OR3XL (27 insts)
+Primitive OR4X2 (199 insts)
+Primitive SDFFHQX1 (1 insts)
+Primitive SDFFTRX4 (1 insts)
+Primitive XNOR2X1 (3 insts)
+Primitive XOR2X1 (1 insts)
+************
+*** Net length and connection length statistics (cell integrator_chain_with_downsampler_comb_nohold_with_fir128) ***
+
+Total net length = 5.245e+05 (2.500e+05 2.745e+05)
+
+Avg net length = 3.215e+01 (sigma = 1.044e+02)
+Sqrt of avg square net length = 1.092e+02
+
+Avg connection length = 1.180e+01 (sigma = 2.403e+01)
+Sqrt of avg square connection length = 2.677e+01
+
+Net and connection length distribution:
+
+[length   range   ]      #net #connection
+[0.00e+00 1.32e+01]:    10087    12934
+[1.32e+01 2.64e+01]:     4002     2038
+[2.64e+01 3.96e+01]:      783      466
+[3.96e+01 5.28e+01]:      269      207
+[5.28e+01 6.60e+01]:      146      138
+[6.60e+01 7.92e+01]:       89       83
+[7.92e+01 9.24e+01]:       49       46
+[9.24e+01 1.06e+02]:       42       42
+[1.06e+02 1.19e+02]:       47       43
+[1.19e+02 1.32e+02]:       36       27
+[1.32e+02 1.45e+02]:       33       28
+[1.45e+02 1.58e+02]:       38       26
+[1.58e+02 1.72e+02]:       33       15
+[1.72e+02 1.85e+02]:       35       20
+[1.85e+02 1.98e+02]:       18       14
+[1.98e+02 2.11e+02]:       17       11
+[2.11e+02 2.24e+02]:       27       21
+[2.24e+02 2.38e+02]:       14        7
+[2.38e+02 2.51e+02]:       18       14
+[2.51e+02 2.64e+02]:       23       15
+[2.64e+02 2.77e+02]:       20        7
+[2.77e+02 2.90e+02]:       26       18
+[2.90e+02 3.04e+02]:       19        9
+[3.04e+02 3.17e+02]:       28       13
+[3.17e+02 3.30e+02]:       27        9
+[3.30e+02 3.43e+02]:       30        8
+[3.43e+02 3.56e+02]:       33       10
+[3.56e+02 3.70e+02]:       28       10
+[3.70e+02 3.83e+02]:       22        6
+[3.83e+02 3.96e+02]:       23        6
+[3.96e+02 4.09e+02]:       20        9
+[4.09e+02 4.22e+02]:       13        1
+[4.22e+02 4.36e+02]:       20        1
+[4.36e+02 4.49e+02]:       20        2
+[4.49e+02 4.62e+02]:       29        4
+[4.62e+02 4.75e+02]:       15        1
+[4.75e+02 4.88e+02]:       13        0
+[4.88e+02 5.02e+02]:       19        0
+[5.02e+02 5.15e+02]:        2        0
+[5.15e+02 5.28e+02]:        3        0
+[5.28e+02 5.41e+02]:        1        1
+[5.41e+02 5.54e+02]:        1        0
+[5.54e+02 5.68e+02]:        2        0
+[5.68e+02 5.81e+02]:        1        0
+[6.07e+02 6.20e+02]:        1        1
+[6.20e+02 6.34e+02]:        1        1
+[6.34e+02 6.47e+02]:        1        1
+[6.73e+02 6.86e+02]:        1        1
+[7.00e+02 7.13e+02]:        1        0
+[7.13e+02 7.26e+02]:        2        0
+[7.79e+02 7.92e+02]:        3        0
+[7.92e+02 8.05e+02]:        1        0
+[8.18e+02 8.32e+02]:        2        0
+[8.58e+02 8.71e+02]:        2        0
+[8.84e+02 8.98e+02]:        2        0
+[8.98e+02 9.11e+02]:        1        0
+[9.24e+02 9.37e+02]:        5        0
+[9.37e+02 9.50e+02]:        2        0
+[9.50e+02 9.64e+02]:        1        0
+[9.64e+02 9.77e+02]:        1        0
+[9.77e+02 9.90e+02]:        1        0
+[1.00e+03 1.02e+03]:        1        0
+[1.02e+03 1.03e+03]:        4        0
+[1.03e+03 1.04e+03]:        1        0
+[1.04e+03 1.06e+03]:        2        0
+[1.06e+03 1.07e+03]:        4        0
+[1.07e+03 1.08e+03]:        4        0
+[1.08e+03 1.10e+03]:        1        0
+[1.10e+03 1.11e+03]:        2        0
+[1.12e+03 1.14e+03]:        4        0
+[1.14e+03 1.15e+03]:        5        0
+[1.15e+03 1.16e+03]:        2        0
+[1.16e+03 1.17e+03]:        2        0
+[1.17e+03 1.19e+03]:        1        0
+[1.19e+03 1.20e+03]:        1        0
+[1.20e+03 1.21e+03]:        2        0
+[1.21e+03 1.23e+03]:        2        0
+[1.23e+03 1.24e+03]:        3        0
+[1.24e+03 1.25e+03]:        1        0
+[1.25e+03 1.27e+03]:        1        0
+[1.27e+03 1.28e+03]:        1        0
+[1.28e+03 1.29e+03]:        1        0
+[1.29e+03 1.31e+03]:        4        0
+[2.61e+06 infinity]:       16        0
+
+
+Total number of long connections = 0
+Io: nrCon=0
+
+
+Total length: 9.502e+05um, number of vias: 134310
+M1(H) length: 4.255e+04um, number of vias: 60931
+M2(V) length: 3.123e+05um, number of vias: 37842
+M3(H) length: 1.268e+05um, number of vias: 15955
+M4(V) length: 6.507e+04um, number of vias: 13333
+M5(H) length: 2.323e+05um, number of vias: 6249
+M6(V) length: 1.712e+05um
+

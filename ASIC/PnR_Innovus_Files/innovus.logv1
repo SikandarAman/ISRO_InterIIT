@@ -1,0 +1,364 @@
+[12/07 05:16:51      0s] 
+[12/07 05:16:51      0s] Cadence Innovus(TM) Implementation System.
+[12/07 05:16:51      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/07 05:16:51      0s] 
+[12/07 05:16:51      0s] Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+[12/07 05:16:51      0s] Options:	
+[12/07 05:16:51      0s] Date:		Sun Dec  7 05:16:51 2025
+[12/07 05:16:51      0s] Host:		vlsicsl-s1.iitrpr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (128cores*256cpus*AMD EPYC 9754 128-Core Processor 1024KB)
+[12/07 05:16:51      0s] OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+[12/07 05:16:51      0s] 
+[12/07 05:16:51      0s] License:
+[12/07 05:16:51      0s] 		[05:16:51.275857] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+[12/07 05:16:52      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[12/07 05:16:52      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/07 05:17:03     11s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+[12/07 05:17:05     12s] @(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+[12/07 05:17:05     12s] @(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+[12/07 05:17:05     12s] @(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+[12/07 05:17:05     12s] @(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+[12/07 05:17:05     12s] @(#)CDS: CPE v21.15-s076
+[12/07 05:17:05     12s] @(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+[12/07 05:17:05     12s] @(#)CDS: OA 22.60-p076 Wed May 18 13:45:29 2022
+[12/07 05:17:05     12s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/07 05:17:05     12s] @(#)CDS: RCDB 11.15.0
+[12/07 05:17:05     12s] @(#)CDS: STYLUS 21.12-s013_1 (08/15/2022 08:25 PDT)
+[12/07 05:17:05     12s] @(#)CDS: SystemPlanner-21.15Rel-8720 (21.15) (2022-08-22 18:31:54+0800)
+[12/07 05:17:05     12s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1122526_vlsicsl-s1.iitrpr.ac.in_ISDL_UG_92_EaTddZ.
+
+[12/07 05:17:05     12s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[12/07 05:17:07     14s] 
+[12/07 05:17:07     14s] **INFO:  MMMC transition support version v31-84 
+[12/07 05:17:07     14s] 
+[12/07 05:17:07     14s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/07 05:17:07     14s] <CMD> suppressMessage ENCEXT-2799
+[12/07 05:17:07     14s] <CMD> getVersion
+[12/07 05:17:08     14s] [INFO] Loading PVS 22.20 fill procedures
+[12/07 05:17:08     14s] <CMD> win
+[12/07 05:17:15     14s] <CMD> restoreDesign final.enc
+[12/07 05:17:15     14s] **ERROR: (IMPTCM-113):	Option "<design>" is required when option "<session>" is specified. Type 'man restoreDesign' for more details.
+
+[12/07 05:17:15     14s] 
+[12/07 05:17:15     14s] ERROR:   
+[12/07 05:17:15     14s] 
+[12/07 05:17:15     14s]   
+[12/07 05:17:15     14s]     while executing
+[12/07 05:17:15     14s] "error $catchMsg"
+[12/07 05:17:15     14s]     (procedure "restoreDesign" line 33)
+[12/07 05:17:15     14s] 
+[12/07 05:17:15     14s]   
+[12/07 05:17:38     15s] <CMD> restoreDesign final.enc.dat
+[12/07 05:17:38     15s] **ERROR: (IMPTCM-113):	Option "<design>" is required when option "<session>" is specified. Type 'man restoreDesign' for more details.
+
+[12/07 05:17:38     15s] 
+[12/07 05:17:38     15s] ERROR:   
+[12/07 05:17:38     15s] 
+[12/07 05:17:38     15s]   
+[12/07 05:17:38     15s]     while executing
+[12/07 05:17:38     15s] "error $catchMsg"
+[12/07 05:17:38     15s]     (procedure "restoreDesign" line 33)
+[12/07 05:17:38     15s] 
+[12/07 05:17:38     15s]   
+[12/07 05:17:56     16s] <CMD> restoreDesign -design final.enc.dat
+[12/07 05:17:56     16s] 
+[12/07 05:17:56     16s] Usage: restoreDesign [-help] [-dynamic_view <string>] [-hold_views <string>] [-leakage_view <string>] [-noTiming] [-readGlobals <string>] [-setup_views <string>] [{{<session> <design>} | {-cellview <string>}} [-mmmcFile <string>] [-lef_files <list_of_files>] ] [ -noTimingGraph ]
+[12/07 05:17:56     16s] 
+[12/07 05:17:56     16s] **ERROR: (IMPTCM-48):	"-design" is not a legal option for command "restoreDesign". Either the current option or an option prior to it is not specified correctly.
+
+[12/07 05:17:56     16s] 
+[12/07 05:17:56     16s] ERROR:   
+[12/07 05:17:56     16s] 
+[12/07 05:17:56     16s]   
+[12/07 05:17:56     16s]     while executing
+[12/07 05:17:56     16s] "error $catchMsg"
+[12/07 05:17:56     16s]     (procedure "restoreDesign" line 33)
+[12/07 05:17:56     16s] 
+[12/07 05:17:56     16s]   
+[12/07 05:18:33     17s] <CMD> restoreDesign final.enc.dat integrator_chain_with_downsampler_comb_nohold_with_fir128
+[12/07 05:18:33     17s] #% Begin load design ... (date=12/07 05:18:33, mem=999.2M)
+[12/07 05:18:34     17s] Loading design 'integrator_chain_with_downsampler_comb_nohold_with_fir128' saved by 'Innovus' '21.15-s110_1' on 'Sun Dec 7 05:15:39 2025'.
+[12/07 05:18:34     17s] 
+[12/07 05:18:34     17s] Loading LEF file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/libs/lef/all.lef ...
+[12/07 05:18:34     17s] Set DBUPerIGU to M2 pitch 1320.
+[12/07 05:18:34     17s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-200' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[13]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[14]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[15]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[8]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[9]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-201' for more detail.
+[12/07 05:18:34     17s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[12/07 05:18:34     17s] To increase the message display limit, refer to the product command reference manual.
+[12/07 05:18:34     17s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-200' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-200):	Pin 'OEN' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-200' for more detail.
+[12/07 05:18:34     17s] **WARN: (IMPLF-200):	Pin 'I' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/07 05:18:34     17s] Type 'man IMPLF-200' for more detail.
+[12/07 05:18:34     17s] 
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[12/07 05:18:34     17s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.30min, fe_real=1.72min, fe_mem=1014.5M) ***
+[12/07 05:18:34     17s] % Begin Load netlist data ... (date=12/07 05:18:34, mem=1012.1M)
+[12/07 05:18:34     17s] *** Begin netlist parsing (mem=1014.5M) ***
+[12/07 05:18:34     17s] Created 0 new cells from 0 timing libraries.
+[12/07 05:18:34     17s] Reading netlist ...
+[12/07 05:18:34     17s] Backslashed names will retain backslash and a trailing blank character.
+[12/07 05:18:34     17s] Reading verilogBinary netlist '/home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.v.bin'
+[12/07 05:18:34     17s] 
+[12/07 05:18:34     17s] *** Memory Usage v#1 (Current mem = 1027.535M, initial mem = 483.863M) ***
+[12/07 05:18:34     17s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1027.5M) ***
+[12/07 05:18:34     17s] % End Load netlist data ... (date=12/07 05:18:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=1022.8M, current mem=1020.1M)
+[12/07 05:18:34     17s] Set top cell to integrator_chain_with_downsampler_comb_nohold_with_fir128.
+[12/07 05:18:34     17s] Hooked 0 DB cells to tlib cells.
+[12/07 05:18:34     17s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1022.4M, current mem=1022.4M)
+[12/07 05:18:34     17s] Starting recursive module instantiation check.
+[12/07 05:18:34     17s] No recursion found.
+[12/07 05:18:34     17s] Building hierarchical netlist for Cell integrator_chain_with_downsampler_comb_nohold_with_fir128 ...
+[12/07 05:18:34     17s] *** Netlist is unique.
+[12/07 05:18:34     18s] Setting Std. cell height to 10080 DBU (smallest netlist inst).
+[12/07 05:18:34     18s] ** info: there are 490 modules.
+[12/07 05:18:34     18s] ** info: there are 15969 stdCell insts.
+[12/07 05:18:34     18s] 
+[12/07 05:18:34     18s] *** Memory Usage v#1 (Current mem = 1081.449M, initial mem = 483.863M) ***
+[12/07 05:18:34     18s] *info: set bottom ioPad orient R0
+[12/07 05:18:34     18s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[12/07 05:18:34     18s] Type 'man IMPFP-3961' for more detail.
+[12/07 05:18:34     18s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[12/07 05:18:34     18s] Type 'man IMPFP-3961' for more detail.
+[12/07 05:18:34     18s] Horizontal Layer M1 offset = 560 (derived)
+[12/07 05:18:34     18s] Vertical Layer M2 offset = 660 (derived)
+[12/07 05:18:34     18s] Start create_tracks
+[12/07 05:18:34     18s] Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+[12/07 05:18:34     18s] Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+[12/07 05:18:34     18s] Loading preference file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/gui.pref.tcl ...
+[12/07 05:18:34     18s] Change floorplan default-technical-site to 'tsm3site'.
+[12/07 05:18:34     18s] Reading floorplan file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.fp.gz (mem = 1316.6M).
+[12/07 05:18:34     18s] % Begin Load floorplan data ... (date=12/07 05:18:34, mem=1295.6M)
+[12/07 05:18:34     18s] *info: reset 17385 existing net BottomPreferredLayer and AvoidDetour
+[12/07 05:18:34     18s] Deleting old partition specification.
+[12/07 05:18:35     18s] Set FPlanBox to (0 0 1630200 1612800)
+[12/07 05:18:35     18s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[12/07 05:18:35     18s] Type 'man IMPFP-3961' for more detail.
+[12/07 05:18:35     18s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[12/07 05:18:35     18s] Type 'man IMPFP-3961' for more detail.
+[12/07 05:18:35     18s] Horizontal Layer M1 offset = 560 (derived)
+[12/07 05:18:35     18s] Vertical Layer M2 offset = 660 (derived)
+[12/07 05:18:35     18s] Start create_tracks
+[12/07 05:18:35     18s] Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+[12/07 05:18:35     18s] Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+[12/07 05:18:35     18s]  ... processed partition successfully.
+[12/07 05:18:35     18s] Reading binary special route file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.fp.spr.gz (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version: 1)
+[12/07 05:18:35     18s] Convert 0 swires and 0 svias from compressed groups
+[12/07 05:18:35     18s] 87 swires and 127 svias were compressed
+[12/07 05:18:35     18s] 87 swires and 11 svias were decompressed from small or sparse groups
+[12/07 05:18:35     18s] Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1296.7M, current mem=1296.7M)
+[12/07 05:18:35     18s] Extracting standard cell pins and blockage ...... 
+[12/07 05:18:35     18s] Pin and blockage extraction finished
+[12/07 05:18:35     18s] % End Load floorplan data ... (date=12/07 05:18:35, total cpu=0:00:00.1, real=0:00:01.0, peak res=1298.1M, current mem=1298.1M)
+[12/07 05:18:35     18s] Reading congestion map file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.route.congmap.gz ...
+[12/07 05:18:35     18s] % Begin Load SymbolTable ... (date=12/07 05:18:35, mem=1298.1M)
+[12/07 05:18:35     18s] Suppress "**WARN ..." messages.
+[12/07 05:18:35     18s] routingBox: (0 0) (1630200 1612800)
+[12/07 05:18:35     18s] coreBox:    (40920 40320) (1589280 1572480)
+[12/07 05:18:35     18s] Un-suppress "**WARN ..." messages.
+[12/07 05:18:35     18s] % End Load SymbolTable ... (date=12/07 05:18:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1301.1M, current mem=1301.1M)
+[12/07 05:18:35     18s] Loading place ...
+[12/07 05:18:35     18s] % Begin Load placement data ... (date=12/07 05:18:35, mem=1301.1M)
+[12/07 05:18:35     18s] Reading placement file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.place.gz.
+[12/07 05:18:35     18s] ** Reading stdCellPlacement_binary (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version# 2) ...
+[12/07 05:18:35     18s] Read Views for adaptive view pruning ...
+[12/07 05:18:35     18s] Read 0 views from Binary DB for adaptive view pruning
+[12/07 05:18:35     18s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1324.6M) ***
+[12/07 05:18:35     18s] Total net length = 5.570e+05 (2.798e+05 2.772e+05) (ext = 1.173e+04)
+[12/07 05:18:35     18s] % End Load placement data ... (date=12/07 05:18:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1306.2M, current mem=1303.7M)
+[12/07 05:18:35     18s] % Begin Load routing data ... (date=12/07 05:18:35, mem=1303.7M)
+[12/07 05:18:35     18s] Reading routing file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.route.gz.
+[12/07 05:18:35     18s] Reading Innovus routing data (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025 Format: 20.1) ...
+[12/07 05:18:35     18s] *** Total 16352 nets are successfully restored.
+[12/07 05:18:35     18s] *** Completed restoreRoute (cpu=0:00:00.1 real=0:00:00.0 mem=1348.6M) ***
+[12/07 05:18:35     18s] % End Load routing data ... (date=12/07 05:18:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=1332.0M, current mem=1330.5M)
+[12/07 05:18:35     18s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[12/07 05:18:35     18s] Reading property file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.prop
+[12/07 05:18:35     18s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1351.6M) ***
+[12/07 05:18:36     18s] Reading dirtyarea snapshot file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.db.da.gz (Create by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version: 4).
+[12/07 05:18:36     18s] eee: readRCCornerMetaData, file read unsuccessful: /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/extraction/extractionMetaData.gz
+[12/07 05:18:36     18s] Extraction setup Started 
+[12/07 05:18:36     18s] 
+[12/07 05:18:36     18s] Trim Metal Layers:
+[12/07 05:18:36     18s] % Begin Loading timing constraints ... (date=12/07 05:18:36, mem=1339.8M)
+[12/07 05:18:36     18s] % End Loading timing constraints ... (date=12/07 05:18:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1339.8M, current mem=1339.8M)
+[12/07 05:18:36     18s] Start generating vias ..
+[12/07 05:18:36     18s] #create default rule from bind_ndr_rule rule=0x7fc1f7fe3be0 0x7fc1e1d16558
+[12/07 05:18:36     18s] ### import design signature (1): route=1 fixed_route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1
+[12/07 05:18:36     18s] #Skip building auto via since it is not turned on.
+[12/07 05:18:36     18s] Via generation completed.
+[12/07 05:18:36     18s] Extraction setup Started 
+[12/07 05:18:36     18s] 
+[12/07 05:18:36     18s] Trim Metal Layers:
+[12/07 05:18:36     18s] % Begin Load power constraints ... (date=12/07 05:18:36, mem=1342.6M)
+[12/07 05:18:36     18s] % End Load power constraints ... (date=12/07 05:18:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1342.8M, current mem=1342.8M)
+[12/07 05:18:36     18s] **WARN: (IMPSYT-709):	Innovus use the Multi-Mode/Multi-Corner (MMMC) architecture exclusively for 
+[12/07 05:18:36     18s] configuration and control of some software features. The current configuration is
+[12/07 05:18:36     18s] obsoleted, please migrate your design to an MMMC style configuration. You can refer to
+[12/07 05:18:36     18s] the What's New document for this release for additional information on the
+[12/07 05:18:36     18s] 11.1 migration to MMMC. In addition, you can run restoreDesign with the
+[12/07 05:18:36     18s] -showEolWarnings option to identify specific command and configuration
+[12/07 05:18:36     18s] options that will no longer be supported.
+[12/07 05:18:36     18s] % Begin load AAE data ... (date=12/07 05:18:36, mem=1342.7M)
+[12/07 05:18:37     19s] AAE DB initialization (MEM=1382.52 CPU=0:00:00.0 REAL=0:00:00.0) 
+[12/07 05:18:37     19s] % End load AAE data ... (date=12/07 05:18:37, total cpu=0:00:00.5, real=0:00:01.0, peak res=1350.8M, current mem=1350.8M)
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[12/07 05:18:37     19s] Summary for sequential cells identification: 
+[12/07 05:18:37     19s]   Identified SBFF number: 0
+[12/07 05:18:37     19s]   Identified MBFF number: 0
+[12/07 05:18:37     19s]   Identified SB Latch number: 0
+[12/07 05:18:37     19s]   Identified MB Latch number: 0
+[12/07 05:18:37     19s]   Not identified SBFF number: 0
+[12/07 05:18:37     19s]   Not identified MBFF number: 0
+[12/07 05:18:37     19s]   Not identified SB Latch number: 0
+[12/07 05:18:37     19s]   Not identified MB Latch number: 0
+[12/07 05:18:37     19s]   Number of sequential cells which are not FFs: 0
+[12/07 05:18:37     19s] Total number of combinational cells: 0
+[12/07 05:18:37     19s] Total number of sequential cells: 0
+[12/07 05:18:37     19s] Total number of tristate cells: 0
+[12/07 05:18:37     19s] Total number of level shifter cells: 0
+[12/07 05:18:37     19s] Total number of power gating cells: 0
+[12/07 05:18:37     19s] Total number of isolation cells: 0
+[12/07 05:18:37     19s] Total number of power switch cells: 0
+[12/07 05:18:37     19s] Total number of pulse generator cells: 0
+[12/07 05:18:37     19s] Total number of always on buffers: 0
+[12/07 05:18:37     19s] Total number of retention cells: 0
+[12/07 05:18:37     19s] List of usable buffers:
+[12/07 05:18:37     19s] Total number of usable buffers: 0
+[12/07 05:18:37     19s] List of unusable buffers:
+[12/07 05:18:37     19s] Total number of unusable buffers: 0
+[12/07 05:18:37     19s] List of usable inverters:
+[12/07 05:18:37     19s] Total number of usable inverters: 0
+[12/07 05:18:37     19s] List of unusable inverters:
+[12/07 05:18:37     19s] Total number of unusable inverters: 0
+[12/07 05:18:37     19s] List of identified usable delay cells:
+[12/07 05:18:37     19s] Total number of identified usable delay cells: 0
+[12/07 05:18:37     19s] List of identified unusable delay cells:
+[12/07 05:18:37     19s] Total number of identified unusable delay cells: 0
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[12/07 05:18:37     19s] No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] TimeStamp Deleting Cell Server Begin ...
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] TimeStamp Deleting Cell Server End ...
+[12/07 05:18:37     19s] #% End load design ... (date=12/07 05:18:37, total cpu=0:00:01.8, real=0:00:04.0, peak res=1351.2M, current mem=1350.7M)
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] *** Summary of all messages that are not suppressed in this session:
+[12/07 05:18:37     19s] Severity  ID               Count  Summary                                  
+[12/07 05:18:37     19s] WARNING   IMPLF-200            4  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/07 05:18:37     19s] WARNING   IMPLF-201           50  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/07 05:18:37     19s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[12/07 05:18:37     19s] WARNING   IMPSYT-709           1  Innovus use the Multi-Mode/Multi-Corner ...
+[12/07 05:18:37     19s] *** Message Summary: 59 warning(s), 0 error(s)
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] 
+[12/07 05:18:37     19s] ERROR : The MMMC configuration specified is incomplete  - a set_analysis_view command
+[12/07 05:18:37     19s]        was not found in the configuration. The software requires at least 1 setup
+[12/07 05:18:37     19s]        and 1 hold analysis view to be defined.  You should remedy this problem and
+[12/07 05:18:37     19s]        restart the software.
+[12/07 05:18:37     19s] 
+[12/07 05:18:48     23s] <CMD> pan -107.36950 -133.19400
+[12/07 05:18:49     24s] <CMD> zoomBox -5.37800 -9.90600 1521.05400 787.32350
+[12/07 05:18:50     25s] <CMD> zoomBox 188.57950 208.58150 985.38750 624.74100
+[12/07 05:18:51     28s] <CMD> zoomBox 247.35800 274.79450 823.05250 575.47000
+[12/07 05:18:52     33s] <CMD> zoomBox 327.42800 347.04850 680.97600 531.70050
+[12/07 05:18:53     39s] <CMD> zoomBox 379.69350 393.98100 596.81700 507.38100
+[12/07 05:18:53     40s] <CMD> zoomBox 404.37800 414.89700 561.25000 496.82850
+[12/07 05:18:54     41s] <CMD> zoomBox 422.68950 429.39600 536.02950 488.59150
+[12/07 05:18:55     42s] <CMD> zoomBox 446.13750 446.55750 505.30250 477.45850
+[12/07 05:18:55     42s] <CMD> zoomBox 458.56300 455.73300 489.44750 471.86350
+[12/07 05:18:56     42s] <CMD> zoomBox 460.80500 457.34500 487.05700 471.05600
+[12/07 05:18:58     42s] <CMD> zoomBox 462.94450 457.98850 485.25900 469.64300
+[12/07 05:18:59     42s] <CMD> zoomBox 461.21350 457.56350 487.46650 471.27500
+[12/07 05:19:00     42s] <CMD> zoomBox 456.57000 451.29500 499.31950 473.62250
+[12/07 05:19:01     42s] <CMD> zoomBox 441.48300 430.92850 537.83100 481.24950
+[12/07 05:19:02     43s] <CMD> zoomBox 407.48100 385.02600 624.62850 498.43850
+[12/07 05:19:03     44s] <CMD> zoomBox 330.85050 281.57550 820.24700 537.17900
+[12/07 05:19:03     49s] <CMD> zoomBox 244.29750 164.72850 1041.19750 580.93600
+[12/07 05:19:04     52s] <CMD> zoomBox 158.14600 48.42450 1261.12250 624.49050
+[12/07 05:19:05     54s] <CMD> zoomBox 103.35950 -25.53700 1400.97950 652.18800
+[12/07 05:19:06     56s] <CMD> zoomBox 42.84350 -110.22300 1569.45650 687.10100
+[12/07 05:19:08     58s] <CMD> pan -121.74700 -46.83600
+[12/07 05:19:09     59s] <CMD> zoomBox -166.73850 -83.19150 1629.27700 854.83700
+[12/07 05:19:10     59s] <CMD> pan -54.76500 139.71650
+[12/07 05:19:10     60s] <CMD> zoomBox -142.51550 60.18050 1384.09800 857.50500
+[12/07 05:19:12     62s] <CMD> zoomBox 20.77700 174.78350 1123.75600 750.85050
+[12/07 05:19:13     64s] <CMD> zoomBox 120.33000 282.23350 917.23200 698.44200
+[12/07 05:19:14     68s] <CMD> zoomBox 264.51900 437.86050 618.10900 622.53450
+[12/07 05:19:15     74s] <CMD> zoomBox 304.33500 471.38550 559.80400 604.81250
+[12/07 05:19:16     75s] <CMD> zoomBox 133.13250 327.23300 810.50350 681.01250
+[12/07 05:19:17     80s] <CMD> zoomBox -1001.65950 -538.96750 2438.97300 1258.01650
+[12/07 05:19:18     80s] <CMD> zoomBox -819.27150 -384.01800 2105.26650 1143.41850
+[12/07 05:19:18     80s] <CMD> zoomBox -532.46600 -140.36000 1580.51300 963.21300
+[12/07 05:19:19     81s] <CMD> zoomBox -415.74850 -46.44100 1380.28400 891.59650
+[12/07 05:19:29     82s] <CMD> zoomBox -186.22850 89.94650 1111.40600 767.67900
+[12/07 05:19:30     84s] <CMD> zoomBox -20.40000 188.48650 917.14150 678.14850
+[12/07 05:19:31     87s] <CMD> zoomBox 99.41100 258.86800 776.78550 612.64900
+[12/07 05:19:32     93s] <CMD> zoomBox 185.97500 309.71850 675.37800 565.32550
+[12/07 05:19:33     98s] <CMD> zoomBox 219.78150 328.94650 635.77450 546.21250
+[12/07 05:19:54    105s] <CMD> zoomBox 288.55850 375.75950 544.03000 509.18800
+[12/07 05:19:55    106s] <CMD> zoomBox 304.97700 386.93500 522.12850 500.34950
+[12/07 05:19:56    107s] <CMD> zoomBox 219.78000 328.94550 635.77500 546.21250
+[12/07 05:19:57    113s] <CMD> zoomBox -3.68500 176.84150 933.86400 666.50750
+[12/07 05:19:58    117s] <CMD> zoomBox -243.74100 18.10450 1282.90150 815.44400
+[12/07 05:19:58    118s] <CMD> zoomBox -346.11150 -53.72350 1449.93850 884.32300
+[12/07 05:21:01    121s] 
+[12/07 05:21:01    121s] *** Memory Usage v#1 (Current mem = 2260.051M, initial mem = 483.863M) ***
+[12/07 05:21:01    121s] 
+[12/07 05:21:01    121s] *** Summary of all messages that are not suppressed in this session:
+[12/07 05:21:01    121s] Severity  ID               Count  Summary                                  
+[12/07 05:21:01    121s] WARNING   IMPLF-200            4  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/07 05:21:01    121s] WARNING   IMPLF-201           50  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/07 05:21:01    121s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[12/07 05:21:01    121s] WARNING   IMPSYT-709           1  Innovus use the Multi-Mode/Multi-Corner ...
+[12/07 05:21:01    121s] ERROR     IMPTCM-48            1  "%s" is not a legal option for command "...
+[12/07 05:21:01    121s] ERROR     IMPTCM-113           2  Option "%s" is required when option "%s"...
+[12/07 05:21:01    121s] *** Message Summary: 59 warning(s), 3 error(s)
+[12/07 05:21:01    121s] 
+[12/07 05:21:01    121s] --- Ending "Innovus" (totcpu=0:02:02, real=0:04:10, mem=2260.1M) ---

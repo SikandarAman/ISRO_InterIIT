@@ -1,0 +1,312 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+Options:	
+Date:		Sun Dec  7 05:16:51 2025
+Host:		vlsicsl-s1.iitrpr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (128cores*256cpus*AMD EPYC 9754 128-Core Processor 1024KB)
+OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+License:
+		[05:16:51.275857] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 22.20 fill procedures
+<CMD> win
+<CMD> restoreDesign final.enc
+**ERROR: (IMPTCM-113):	Option "<design>" is required when option "<session>" is specified. Type 'man restoreDesign' for more details.
+
+
+ERROR:   
+
+  
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 33)
+
+  
+<CMD> restoreDesign final.enc.dat
+**ERROR: (IMPTCM-113):	Option "<design>" is required when option "<session>" is specified. Type 'man restoreDesign' for more details.
+
+
+ERROR:   
+
+  
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 33)
+
+  
+<CMD> restoreDesign -design final.enc.dat
+
+Usage: restoreDesign [-help] [-dynamic_view <string>] [-hold_views <string>] [-leakage_view <string>] [-noTiming] [-readGlobals <string>] [-setup_views <string>] [{{<session> <design>} | {-cellview <string>}} [-mmmcFile <string>] [-lef_files <list_of_files>] ] [ -noTimingGraph ]
+
+**ERROR: (IMPTCM-48):	"-design" is not a legal option for command "restoreDesign". Either the current option or an option prior to it is not specified correctly.
+
+
+ERROR:   
+
+  
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 33)
+
+  
+<CMD> restoreDesign final.enc.dat integrator_chain_with_downsampler_comb_nohold_with_fir128
+#% Begin load design ... (date=12/07 05:18:33, mem=999.2M)
+Loading design 'integrator_chain_with_downsampler_comb_nohold_with_fir128' saved by 'Innovus' '21.15-s110_1' on 'Sun Dec 7 05:15:39 2025'.
+
+Loading LEF file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/libs/lef/all.lef ...
+Set DBUPerIGU to M2 pitch 1320.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[13]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[14]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[15]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[8]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[9]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'OEN' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.30min, fe_real=1.72min, fe_mem=1014.5M) ***
+% Begin Load netlist data ... (date=12/07 05:18:34, mem=1012.1M)
+*** Begin netlist parsing (mem=1014.5M) ***
+Created 0 new cells from 0 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.v.bin'
+
+*** Memory Usage v#1 (Current mem = 1027.535M, initial mem = 483.863M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1027.5M) ***
+% End Load netlist data ... (date=12/07 05:18:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=1022.8M, current mem=1020.1M)
+Set top cell to integrator_chain_with_downsampler_comb_nohold_with_fir128.
+Hooked 0 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell integrator_chain_with_downsampler_comb_nohold_with_fir128 ...
+*** Netlist is unique.
+** info: there are 490 modules.
+** info: there are 15969 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 1081.449M, initial mem = 483.863M) ***
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Start create_tracks
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+Loading preference file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/gui.pref.tcl ...
+Change floorplan default-technical-site to 'tsm3site'.
+Reading floorplan file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.fp.gz (mem = 1316.6M).
+% Begin Load floorplan data ... (date=12/07 05:18:34, mem=1295.6M)
+*info: reset 17385 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 1630200 1612800)
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Start create_tracks
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+ ... processed partition successfully.
+Reading binary special route file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.fp.spr.gz (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version: 1)
+Convert 0 swires and 0 svias from compressed groups
+87 swires and 127 svias were compressed
+87 swires and 11 svias were decompressed from small or sparse groups
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1296.7M, current mem=1296.7M)
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=12/07 05:18:35, total cpu=0:00:00.1, real=0:00:01.0, peak res=1298.1M, current mem=1298.1M)
+Reading congestion map file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=12/07 05:18:35, mem=1298.1M)
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=12/07 05:18:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1301.1M, current mem=1301.1M)
+Loading place ...
+% Begin Load placement data ... (date=12/07 05:18:35, mem=1301.1M)
+Reading placement file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1324.6M) ***
+Total net length = 5.570e+05 (2.798e+05 2.772e+05) (ext = 1.173e+04)
+% End Load placement data ... (date=12/07 05:18:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1306.2M, current mem=1303.7M)
+% Begin Load routing data ... (date=12/07 05:18:35, mem=1303.7M)
+Reading routing file - /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.route.gz.
+Reading Innovus routing data (Created by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025 Format: 20.1) ...
+*** Total 16352 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.1 real=0:00:00.0 mem=1348.6M) ***
+% End Load routing data ... (date=12/07 05:18:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=1332.0M, current mem=1330.5M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1351.6M) ***
+Reading dirtyarea snapshot file /home/ISDL_UG_92/Final_Draft_ASIC/final.enc.dat/integrator_chain_with_downsampler_comb_nohold_with_fir128.db.da.gz (Create by Innovus v21.15-s110_1 on Sun Dec  7 05:15:39 2025, version: 4).
+Extraction setup Started 
+% Begin Loading timing constraints ... (date=12/07 05:18:36, mem=1339.8M)
+% End Loading timing constraints ... (date=12/07 05:18:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1339.8M, current mem=1339.8M)
+Start generating vias ..
+#Skip building auto via since it is not turned on.
+Via generation completed.
+Extraction setup Started 
+% Begin Load power constraints ... (date=12/07 05:18:36, mem=1342.6M)
+% End Load power constraints ... (date=12/07 05:18:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1342.8M, current mem=1342.8M)
+**WARN: (IMPSYT-709):	Innovus use the Multi-Mode/Multi-Corner (MMMC) architecture exclusively for 
+configuration and control of some software features. The current configuration is
+obsoleted, please migrate your design to an MMMC style configuration. You can refer to
+the What's New document for this release for additional information on the
+11.1 migration to MMMC. In addition, you can run restoreDesign with the
+-showEolWarnings option to identify specific command and configuration
+options that will no longer be supported.
+% Begin load AAE data ... (date=12/07 05:18:36, mem=1342.7M)
+AAE DB initialization (MEM=1382.52 CPU=0:00:00.0 REAL=0:00:00.0) 
+% End load AAE data ... (date=12/07 05:18:37, total cpu=0:00:00.5, real=0:00:01.0, peak res=1350.8M, current mem=1350.8M)
+Total number of combinational cells: 0
+Total number of sequential cells: 0
+Total number of tristate cells: 0
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers:
+Total number of usable buffers: 0
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters:
+Total number of usable inverters: 0
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+#% End load design ... (date=12/07 05:18:37, total cpu=0:00:01.8, real=0:00:04.0, peak res=1351.2M, current mem=1350.7M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            4  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPLF-201           50  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+WARNING   IMPSYT-709           1  Innovus use the Multi-Mode/Multi-Corner ...
+*** Message Summary: 59 warning(s), 0 error(s)
+
+
+
+ERROR : The MMMC configuration specified is incomplete  - a set_analysis_view command
+       was not found in the configuration. The software requires at least 1 setup
+       and 1 hold analysis view to be defined.  You should remedy this problem and
+       restart the software.
+
+<CMD> pan -107.36950 -133.19400
+<CMD> zoomBox -5.37800 -9.90600 1521.05400 787.32350
+<CMD> zoomBox 188.57950 208.58150 985.38750 624.74100
+<CMD> zoomBox 247.35800 274.79450 823.05250 575.47000
+<CMD> zoomBox 327.42800 347.04850 680.97600 531.70050
+<CMD> zoomBox 379.69350 393.98100 596.81700 507.38100
+<CMD> zoomBox 404.37800 414.89700 561.25000 496.82850
+<CMD> zoomBox 422.68950 429.39600 536.02950 488.59150
+<CMD> zoomBox 446.13750 446.55750 505.30250 477.45850
+<CMD> zoomBox 458.56300 455.73300 489.44750 471.86350
+<CMD> zoomBox 460.80500 457.34500 487.05700 471.05600
+<CMD> zoomBox 462.94450 457.98850 485.25900 469.64300
+<CMD> zoomBox 461.21350 457.56350 487.46650 471.27500
+<CMD> zoomBox 456.57000 451.29500 499.31950 473.62250
+<CMD> zoomBox 441.48300 430.92850 537.83100 481.24950
+<CMD> zoomBox 407.48100 385.02600 624.62850 498.43850
+<CMD> zoomBox 330.85050 281.57550 820.24700 537.17900
+<CMD> zoomBox 244.29750 164.72850 1041.19750 580.93600
+<CMD> zoomBox 158.14600 48.42450 1261.12250 624.49050
+<CMD> zoomBox 103.35950 -25.53700 1400.97950 652.18800
+<CMD> zoomBox 42.84350 -110.22300 1569.45650 687.10100
+<CMD> pan -121.74700 -46.83600
+<CMD> zoomBox -166.73850 -83.19150 1629.27700 854.83700
+<CMD> pan -54.76500 139.71650
+<CMD> zoomBox -142.51550 60.18050 1384.09800 857.50500
+<CMD> zoomBox 20.77700 174.78350 1123.75600 750.85050
+<CMD> zoomBox 120.33000 282.23350 917.23200 698.44200
+<CMD> zoomBox 264.51900 437.86050 618.10900 622.53450
+<CMD> zoomBox 304.33500 471.38550 559.80400 604.81250
+<CMD> zoomBox 133.13250 327.23300 810.50350 681.01250
+<CMD> zoomBox -1001.65950 -538.96750 2438.97300 1258.01650
+<CMD> zoomBox -819.27150 -384.01800 2105.26650 1143.41850
+<CMD> zoomBox -532.46600 -140.36000 1580.51300 963.21300
+<CMD> zoomBox -415.74850 -46.44100 1380.28400 891.59650
+<CMD> zoomBox -186.22850 89.94650 1111.40600 767.67900
+<CMD> zoomBox -20.40000 188.48650 917.14150 678.14850
+<CMD> zoomBox 99.41100 258.86800 776.78550 612.64900
+<CMD> zoomBox 185.97500 309.71850 675.37800 565.32550
+<CMD> zoomBox 219.78150 328.94650 635.77450 546.21250
+<CMD> zoomBox 288.55850 375.75950 544.03000 509.18800
+<CMD> zoomBox 304.97700 386.93500 522.12850 500.34950
+<CMD> zoomBox 219.78000 328.94550 635.77500 546.21250
+<CMD> zoomBox -3.68500 176.84150 933.86400 666.50750
+<CMD> zoomBox -243.74100 18.10450 1282.90150 815.44400
+<CMD> zoomBox -346.11150 -53.72350 1449.93850 884.32300
+
+*** Memory Usage v#1 (Current mem = 2260.051M, initial mem = 483.863M) ***
+*** Message Summary: 59 warning(s), 3 error(s)
+
+--- Ending "Innovus" (totcpu=0:02:02, real=0:04:10, mem=2260.1M) ---

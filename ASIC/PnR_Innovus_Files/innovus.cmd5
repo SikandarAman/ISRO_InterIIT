@@ -1,0 +1,396 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sun Dec  7 06:32:58 2025                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+restoreDesign final.enc.dat integrator_chain_with_downsampler_comb_nohold_with_fir128
+zoomBox 242.52900 240.76650 1345.37750 816.76550
+zoomBox 390.49400 387.49550 966.18950 688.17150
+pan -187.24700 24.45850
+zoomBox 258.81350 438.85350 748.15450 694.42800
+setLayerPreference Metal3 -isVisible 0
+setLayerPreference Metal4 -isVisible 0
+setLayerPreference Metal5 -isVisible 0
+setLayerPreference Metal6 -isVisible 0
+setLayerPreference node_power -isVisible 1
+setLayerPreference node_power -isVisible 0
+setLayerPreference node_power -isVisible 1
+setLayerPreference node_power -isVisible 0
+setLayerPreference node_power -isVisible 1
+setLayerPreference node_power -isVisible 0
+setLayerPreference node_power -isVisible 1
+zoomBox -575.91950 -138.27250 1422.18600 905.30400
+zoomBox -1258.13800 -288.96150 1507.40650 1155.43550
+zoomBox -944.50100 -182.25350 1406.21200 1045.48400
+zoomBox -726.70650 -76.38900 1271.40000 967.18800
+create_ccopt_clock_tree_spec
+ctd_win -side none -id ctd_window
+zoomBox -568.52950 26.25000 1129.86100 913.29050
+zoomBox -434.07900 113.49350 1009.55300 867.47800
+zoomBox -568.52950 26.25000 1129.86100 913.29050
+zoomBox -372.53050 117.67650 1071.10100 871.66050
+zoomBox -230.31200 211.47300 996.77500 852.35950
+zoomBox -280.93500 108.19550 1162.69650 862.17950
+zoomBox -116.03750 202.16100 926.98600 746.91450
+zoomBox 151.33550 347.80200 614.13150 589.51250
+zoomBox 316.29400 437.28850 464.65800 514.77650
+zoomBox 346.32800 453.58100 437.44300 501.16900
+zoomBox 353.93550 457.00050 431.38400 497.45050
+zoomBox 360.40250 459.90700 426.23400 494.28950
+zoomBox 365.89950 462.37700 421.85650 491.60250
+zoomBox 354.00750 453.38750 445.12500 500.97650
+zoomBox 200.87050 338.18050 745.36850 622.56250
+zoomBox 36.59000 218.79250 1079.67650 763.57900
+zoomBox -62.73350 44.79150 1935.49350 1088.43150
+setLayerPreference Via23 -isVisible 0
+setLayerPreference Via34 -isVisible 0
+setLayerPreference Via45 -isVisible 0
+setLayerPreference Via56 -isVisible 0
+zoomBox -608.72700 -107.80900 1389.37850 935.76750
+zoomBox -441.64600 -40.32050 1256.74450 846.72000
+zoomBox -76.30100 107.25200 966.72350 652.00600
+zoomBox -178.91000 65.80550 1048.17750 706.69250
+zoomBox 49.46850 226.31200 690.01650 560.85950
+zoomBox 250.66550 345.78300 492.24900 471.95800
+zoomBox 297.67650 373.69800 446.03950 451.18550
+zoomBox 326.54650 390.84100 417.66050 438.42850
+zoomBox 348.50950 403.88250 396.07150 428.72350
+zoomBox 355.16500 407.83450 389.52900 425.78200
+zoomBox 360.85350 410.98050 385.68200 423.94800
+zoomBox 366.56850 414.14100 381.81700 422.10500
+zoomBox 370.07850 416.08200 379.44300 420.97300
+zoomBox 370.91650 416.54550 378.87650 420.70300
+zoomBox 364.96150 413.25150 382.90350 422.62250
+zoomBox 353.16350 406.70450 393.60250 427.82500
+pan -0.85400 67.51600
+pan 1.04350 79.56300
+zoomBox 330.83550 425.01350 421.97750 472.61550
+zoomBox 293.83650 413.07150 468.43800 504.26300
+zoomBox 245.20100 395.91650 529.51050 544.40650
+zoomBox 196.79150 378.84100 590.29950 584.36350
+zoomBox 129.78850 355.20700 674.43650 639.66750
+zoomBox 37.05100 322.49550 790.88950 716.21250
+zoomBox -91.30500 277.22000 952.07000 822.15700
+zoomBox -172.93050 248.42800 1054.56950 889.53050
+zoomBox -195.86000 41.85400 1031.22650 682.74050
+zoomBox 203.12350 177.39050 665.91950 419.10100
+zoomBox 319.69700 224.95400 561.28000 351.12850
+zoomBox 380.54950 249.78250 506.65750 315.64650
+zoomBox 412.31450 262.74300 478.14400 297.12450
+zoomBox 425.69900 268.20450 466.12750 289.31950
+zoomBox 435.88200 272.35900 456.98650 283.38150
+zoomBox 441.19750 274.52750 452.21450 280.28150
+selectWire 448.3300 277.9000 449.9300 278.1800 2 {FIR/buffer[89][32]}
+deselectAll
+selectWire 448.3300 277.9000 449.9300 278.1800 2 {FIR/buffer[89][32]}
+deselectAll
+selectInst FIR/g247520
+zoomBox 437.27300 272.69300 455.21350 282.06300
+zoomBox 427.98650 268.38600 462.35500 286.33600
+zoomBox 420.53450 264.95950 468.10400 289.80400
+zoomBox 410.22050 260.21650 476.06100 294.60400
+zoomBox 376.18550 244.56650 502.31750 310.44300
+zoomBox 331.44550 223.99400 536.83150 331.26350
+deselectAll
+selectWire 458.2300 282.9400 458.5100 284.9000 2 clk
+zoomBox 331.22150 224.22700 536.60800 331.49700
+zoomBox 209.11900 174.13100 602.57600 379.62700
+zoomBox -330.72400 -46.89200 896.62100 594.12950
+setLayerPreference Metal2 -isVisible 0
+setLayerPreference Metal1 -isVisible 0
+setLayerPreference Via12 -isVisible 0
+deselectAll
+zoomBox -442.82950 -105.82350 1001.10600 648.31950
+selectInst {FIR/buffer_reg[21][26]}
+deselectAll
+selectInst {FIR/buffer_reg[11][18]}
+zoomBox -762.40300 -272.76500 1236.12450 771.03200
+zoomBox -965.62950 -378.92800 1385.57950 849.06850
+setLayerPreference Metal1 -isVisible 1
+setLayerPreference Metal2 -isVisible 1
+setLayerPreference Metal3 -isVisible 1
+setLayerPreference Via45 -isVisible 1
+setLayerPreference Via45 -isVisible 0
+setLayerPreference Metal4 -isVisible 1
+setLayerPreference Metal5 -isVisible 1
+setLayerPreference Metal6 -isVisible 1
+zoomBox -396.72300 -95.89350 1047.21450 658.25050
+zoomBox -67.65950 77.92550 819.09850 541.06400
+zoomBox 323.43900 280.51600 528.82750 387.78700
+zoomBox 356.23700 296.60300 504.63050 374.10650
+zoomBox 379.93300 308.22550 487.14800 364.22200
+zoomBox 403.73950 319.90250 469.58400 354.29200
+zoomBox 414.25300 325.05950 461.82700 349.90650
+zoomBox 390.48400 320.52550 467.95050 360.98500
+zoomBox 186.13100 281.54300 520.59500 456.22800
+zoomBox 19.02600 249.66650 563.64450 534.11150
+setLayerPreference Metal3 -isVisible 0
+setLayerPreference Metal4 -isVisible 0
+setLayerPreference Metal5 -isVisible 0
+setLayerPreference Metal6 -isVisible 0
+zoomBox -127.84150 220.88150 625.95650 614.57750
+zoomBox 37.66950 289.08150 582.28900 573.52700
+zoomBox 65.72400 221.74900 952.29400 684.78950
+zoomBox 218.64650 300.80700 859.19400 635.35400
+zoomBox 365.52950 414.54350 649.74450 562.98400
+zoomBox 407.46150 439.64050 612.80750 546.88900
+zoomBox 437.75800 457.77350 586.12050 535.26050
+setLayerPreference pgGround -isVisible 0
+setLayerPreference pgPower -isVisible 0
+setLayerPreference power -isVisible 0
+setLayerPreference net -isVisible 0
+zoomBox 371.90150 428.98700 656.11900 577.42900
+zoomBox 302.66750 397.66200 765.46850 639.37500
+zoomBox 243.32350 367.92000 883.87850 702.47100
+setLayerPreference Metal2 -isVisible 0
+setLayerPreference Metal1 -isVisible 0
+zoomBox 224.32100 344.49900 977.91550 738.08850
+zoomBox 175.66600 284.52850 1218.70300 829.28900
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference Metal1 -isVisible 1
+setLayerPreference node_layer -isVisible 1
+setLayerPreference net -isVisible 1
+setLayerPreference net -isVisible 0
+setLayerPreference pgGround -isVisible 1
+setLayerPreference pgPower -isVisible 1
+setLayerPreference power -isVisible 1
+setLayerPreference power -isVisible 0
+setLayerPreference net -isVisible 1
+setLayerPreference net -isVisible 0
+deselectAll
+setLayerPreference Metal1 -isVisible 0
+setLayerPreference Metal1 -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference pgPower -isVisible 0
+setLayerPreference pgPower -isVisible 1
+setLayerPreference pgPower -isVisible 0
+setLayerPreference pgGround -isVisible 0
+setLayerPreference node_net -isVisible 1
+setLayerPreference node_net -isVisible 0
+setLayerPreference node_net -isVisible 1
+setLayerPreference pgGround -isVisible 0
+setLayerPreference pgPower -isVisible 0
+setLayerPreference power -isVisible 0
+setLayerPreference net -isVisible 0
+zoomBox -232.93850 112.23650 994.14800 753.12300
+zoomBox 36.65050 298.22750 677.19700 632.77400
+zoomBox 205.13000 409.24950 489.34450 557.69000
+zoomBox 242.93000 435.30050 448.27550 542.54900
+zoomBox 280.90600 461.50650 407.01500 527.37100
+zoomBox 297.62350 472.75150 388.73800 520.33900
+zoomBox 309.33650 480.18450 375.16750 514.56700
+zoomBox 317.79150 485.55500 365.35500 510.39650
+zoomBox 321.11600 487.81950 361.54500 508.93500
+selectMarker 339.0700 500.4200 340.0700 501.4200 5 2 43
+zoomBox 305.16700 481.88550 382.61650 522.33600
+zoomBox 166.08850 426.30350 559.48750 631.76900
+zoomBox -695.56000 81.94950 1655.29450 1309.76100
+deselectAll
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference clock -isVisible 0
+setLayerPreference clock -isVisible 1
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference Metal3 -isVisible 1
+setLayerPreference Metal4 -isVisible 1
+setLayerPreference Metal5 -isVisible 1
+setLayerPreference node_module -isVisible 0
+setLayerPreference node_module -isVisible 1
+setLayerPreference node_module -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+zoomBox -653.48500 -104.99700 1344.62050 938.57950
+setLayerPreference node_partition -isVisible 0
+setLayerPreference node_power -isVisible 0
+setLayerPreference node_power -isVisible 1
+setLayerPreference node_partition -isVisible 1
+setLayerPreference node_floorplan -isVisible 1
+setLayerPreference node_floorplan -isVisible 0
+setLayerPreference node_floorplan -isVisible 1
+setLayerPreference node_floorplan -isVisible 0
+setLayerPreference node_inst -isVisible 0
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference Metal3 -isVisible 1
+setLayerPreference Metal3 -isVisible 0
+setLayerPreference Via45 -isVisible 1
+setLayerPreference Via45 -isVisible 0
+setLayerPreference Metal4 -isVisible 1
+setLayerPreference Metal5 -isVisible 1
+report_clocks
+selectNet clk
+zoomBox -281.53900 65.60350 945.54750 706.49000
+zoomBox -386.00200 17.68950 1057.62950 771.67350
+zoomBox -508.89950 -38.68050 1189.49050 848.36000
+deselectAll
+selectNet clk
+selectNet clk
+report_clocks
+selectNet clk
+setDrawView highlight
+setDrawView place
+gui_select -net clk
+deselectAll
+setLayerPreference node_route -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference stdCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+zoomBox 372.67200 136.81750 766.04950 342.27200
+zoomBox 473.78900 167.31850 715.37250 293.49350
+zoomBox 497.98450 174.60000 703.33100 281.84900
+zoomBox 372.43250 136.81700 765.81300 342.27300
+zoomBox 43.11650 37.71350 929.69950 500.76100
+zoomBox -328.84500 -74.22350 1114.80900 679.77250
+zoomBox -498.95250 -125.41500 1199.46400 761.63900
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference node_inst -isVisible 1
+setLayerPreference block -isVisible 0
+setLayerPreference coverCell -isVisible 0
+setLayerPreference phyCell -isVisible 0
+setLayerPreference io -isVisible 0
+zoomBox 354.09400 205.94900 816.89650 447.66300
+zoomBox 444.31050 239.68750 778.68550 414.32600
+zoomBox 479.95700 252.70650 764.17600 401.14950
+zoomBox 536.01050 273.17900 741.36000 380.42950
+setLayerPreference areaIo -isVisible 0
+setLayerPreference blackBox -isVisible 0
+zoomBox 466.94600 248.29600 751.16650 396.73950
+zoomBox 494.07900 259.42900 735.66650 385.60600
+zoomBox 340.30200 202.23200 803.10950 443.94850
+zoomBox 51.62500 95.83750 938.21750 558.88950
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference instanceCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+zoomBox -266.62300 -27.08600 1177.04550 726.91750
+zoomBox -15.00900 73.71850 871.58400 536.77100
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference node_inst -isVisible 1
+setLayerPreference node_inst -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference instanceFunction -isVisible 1
+setLayerPreference instanceStatus -isVisible 1
+setLayerPreference instanceStatus -isVisible 0
+zoomBox 197.64150 144.33400 742.12100 428.70650
+zoomBox -15.01100 73.71700 871.58450 536.77100
+zoomBox -360.40900 -38.65750 1083.26500 715.34900
+setLayerPreference blackBox -isVisible 1
+gui_select [get_cells -hier *ADD*]
+gui_select [get_cells -hier *DFF*]
+gui_deselect -all
+gui_select [get_cells -hier *XOR*]
+gui_select [get_cells -hier *XOR2*]
+gui_select [get_cells -hier *xor*]
+zoomBox -268.81100 -7.84250 958.31200 633.06300
+zoomBox -818.78100 -244.17100 1532.00200 983.60300
+zoomBox -646.19400 -170.00850 1351.97150 873.59950
+zoomBox -221.78950 -22.91400 1005.33450 617.99200
+zoomBox -34.35300 42.04950 852.24400 505.10400
+zoomBox 38.84850 67.42050 792.45600 461.01700
+zoomBox -221.78950 -22.91400 1005.33450 617.99200
+gui_select FIR/csa_tree_add_232_50_groupi_g2096
+gui_select [get_cells FIR/csa_tree_add_232_50_groupi_g2096]
+gui_select [get_cells FIR/csa_tree_add_232_50_groupi_g2096]
+gui_select [get_cells [list FIR/csa_tree_add_232_50_groupi_g2096]]
+gui_select [get_cells -hier -filter "name =~ *csa_tree_add_232_50_groupi_g2096*"]
+selectInst FIR/csa_tree_add_232_50_groupi_g2096
+zoomBox -102.77800 88.64250 783.81900 551.69700
+zoomBox 16.78850 200.71950 561.27000 485.09300
+zoomBox 96.59450 267.16400 430.97450 441.80500
+zoomBox 133.37650 295.82050 374.96700 421.99900
+zoomBox 13.30800 202.27550 557.79350 486.65100
+zoomBox -69.59100 137.68950 684.02250 531.28900
+zoomBox -449.34150 55.05600 777.79250 695.96750
+zoomBox -996.13000 -64.91200 1002.05400 978.70550
+zoomBox -764.83150 -13.35600 933.62500 873.71900
+pan 159.35450 751.47550
+zoomBox -479.78600 43.21500 963.90200 797.22850
+zoomBox 35.09650 278.89450 428.48900 484.35650
+zoomBox 109.98750 312.95750 351.58000 439.13700
+zoomBox 35.09600 278.89400 428.48900 484.35650
+zoomBox -208.23450 168.21850 678.37450 631.27950
+streamOut final_decimation_filter.gds -libName DesignLib -units 2000 -mode ALL
+zoomBox -296.19050 143.38500 746.87950 688.16300
+zoomBox -396.79000 113.21000 830.35200 754.12550
+pan 81.55400 503.28400
+deselectAll
+report_area > area.rpt
+report_timing > timing.rpt
+report_power > power.rpt
+globalDetailRoute -congestion_map congestion.map
+globalRoute -congestion_map congestion.map
+globalRoute -write_congestion_map congestion.map
+set_global routeShowOverflow true
+zoomBox -690.68000 25.24400 1307.51550 1068.86750
+reportRoute > congestion.rpt
+report_clocks
+report_route > route_report.rpt
+saveDesign -def final.def
+setLayerPreference block -isVisible 1
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference instanceCell -isVisible 0
+setLayerPreference instanceCell -isVisible 1
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_floorplan -isVisible 1
+setLayerPreference node_floorplan -isVisible 0
+setLayerPreference node_overlay -isVisible 1
+setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+fit
+setLayerPreference node_overlay -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_route -isVisible 1
+setLayerPreference net -isVisible 1
+setLayerPreference net -isVisible 0
+setLayerPreference power -isVisible 1
+setLayerPreference net -isVisible 1
+setLayerPreference pgPower -isVisible 1
+setLayerPreference pgGround -isVisible 1

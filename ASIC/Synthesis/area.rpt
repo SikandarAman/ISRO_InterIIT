@@ -1,0 +1,4 @@
+    Hinst Name                                            Module Name                         Inst Count           Total Area
+--------------------------------------------------------------------------------------------------------------------------
+integrator_chain_with_downsampler_comb_nohold_with_fir128                                          15934           414685.656
+ FIR                                                      fir128_nohold_WIDTH32_TAPS128_FRAC8      15166           389232.043

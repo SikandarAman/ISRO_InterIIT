@@ -1,0 +1,16 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+Options:	2 
+Date:		Sun Dec  7 04:55:07 2025
+Host:		vlsicsl-s1.iitrpr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (128cores*256cpus*AMD EPYC 9754 128-Core Processor 1024KB)
+OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+License:
+		[04:55:07.275881] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+**ERROR: (IMPLIC-68):	Unknown argument: 2.
+	Run "innovus -help" for valid option/argument.
+

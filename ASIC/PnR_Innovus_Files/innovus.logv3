@@ -1,0 +1,64 @@
+[12/07 06:12:08      0s] 
+[12/07 06:12:08      0s] Cadence Innovus(TM) Implementation System.
+[12/07 06:12:08      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/07 06:12:08      0s] 
+[12/07 06:12:08      0s] Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+[12/07 06:12:08      0s] Options:	-files inn.cmd 
+[12/07 06:12:08      0s] Date:		Sun Dec  7 06:12:08 2025
+[12/07 06:12:08      0s] Host:		vlsicsl-s1.iitrpr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (128cores*256cpus*AMD EPYC 9754 128-Core Processor 1024KB)
+[12/07 06:12:08      0s] OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+[12/07 06:12:08      0s] 
+[12/07 06:12:08      0s] License:
+[12/07 06:12:08      0s] 		[06:12:08.275849] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+[12/07 06:12:09      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[12/07 06:12:09      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/07 06:12:21     10s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+[12/07 06:12:23     12s] @(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+[12/07 06:12:23     12s] @(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+[12/07 06:12:23     12s] @(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+[12/07 06:12:23     12s] @(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+[12/07 06:12:23     12s] @(#)CDS: CPE v21.15-s076
+[12/07 06:12:23     12s] @(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+[12/07 06:12:23     12s] @(#)CDS: OA 22.60-p076 Wed May 18 13:45:29 2022
+[12/07 06:12:23     12s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/07 06:12:23     12s] @(#)CDS: RCDB 11.15.0
+[12/07 06:12:23     12s] @(#)CDS: STYLUS 21.12-s013_1 (08/15/2022 08:25 PDT)
+[12/07 06:12:23     12s] @(#)CDS: SystemPlanner-21.15Rel-8720 (21.15) (2022-08-22 18:31:54+0800)
+[12/07 06:12:23     12s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1150306_vlsicsl-s1.iitrpr.ac.in_ISDL_UG_92_Hg6YEw.
+
+[12/07 06:12:23     12s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[12/07 06:12:25     14s] 
+[12/07 06:12:25     14s] **INFO:  MMMC transition support version v31-84 
+[12/07 06:12:25     14s] 
+[12/07 06:12:25     14s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/07 06:12:25     14s] <CMD> suppressMessage ENCEXT-2799
+[12/07 06:12:25     14s] <CMD> getVersion
+[12/07 06:12:25     14s] [INFO] Loading PVS 22.20 fill procedures
+[12/07 06:12:25     14s] Sourcing file "inn.cmd" ...
+[12/07 06:12:25     14s] <CMD> set init_lef_file {  /cad/FOUNDRY/digital/180nm/RC_Libs/libraries/lef/STDCELL/all.lef  }
+[12/07 06:12:25     14s] <CMD> set init_verilog mapped_decim_filter.v
+[12/07 06:12:25     14s] <CMD> set init_top_cell integrator_chain_with_downsampler_comb_nohold_with_fir128
+[12/07 06:12:25     14s] <CMD> set init_design_settop 1
+[12/07 06:12:25     14s] <CMD> set init_pwr_net VDD
+[12/07 06:12:25     14s] <CMD> set init_gnd_net VSS
+[12/07 06:12:25     14s] **ERROR: (IMPSYT-6692):	Invalid return code while executing 'inn.cmd' was returned and script processing was stopped. Review the following error in 'inn.cmd' then restart.
+[12/07 06:12:25     14s] **ERROR: (IMPSYT-6693):	Error message: inn.cmd: invalid command name "init_mmmc_file".
+[12/07 06:12:25     14s] <CMD> win
+[12/07 06:12:31     14s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sun Dec  7 06:12:31 2025
+  Total CPU time:     0:00:14
+  Total real time:    0:00:24
+  Peak memory (main): 1005.74MB
+
+[12/07 06:12:31     14s] 
+[12/07 06:12:31     14s] *** Memory Usage v#1 (Current mem = 1007.145M, initial mem = 483.863M) ***
+[12/07 06:12:31     14s] 
+[12/07 06:12:31     14s] *** Summary of all messages that are not suppressed in this session:
+[12/07 06:12:31     14s] Severity  ID               Count  Summary                                  
+[12/07 06:12:31     14s] ERROR     IMPSYT-6692          1  Invalid return code while executing '%s'...
+[12/07 06:12:31     14s] ERROR     IMPSYT-6693          1  Error message: %s: %s.                   
+[12/07 06:12:31     14s] *** Message Summary: 0 warning(s), 2 error(s)
+[12/07 06:12:31     14s] 
+[12/07 06:12:31     14s] --- Ending "Innovus" (totcpu=0:00:14.7, real=0:00:23.0, mem=1007.1M) ---

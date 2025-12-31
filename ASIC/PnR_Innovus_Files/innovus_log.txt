@@ -1,0 +1,38 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+Options:	-files inn.cmd 
+Date:		Sun Dec  7 06:12:08 2025
+Host:		vlsicsl-s1.iitrpr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (128cores*256cpus*AMD EPYC 9754 128-Core Processor 1024KB)
+OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+License:
+		[06:12:08.275849] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Create and set the environment variable TMPDIR to /tmp/innovus_temp_1150306_vlsicsl-s1.iitrpr.ac.in_ISDL_UG_92_Hg6YEw.
+
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+[INFO] Loading PVS 22.20 fill procedures
+Sourcing file "inn.cmd" ...
+**ERROR: (IMPSYT-6692):	Invalid return code while executing 'inn.cmd' was returned and script processing was stopped. Review the following error in 'inn.cmd' then restart.
+**ERROR: (IMPSYT-6693):	Error message: inn.cmd: invalid command name "init_mmmc_file".
+innovus 1> 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sun Dec  7 06:12:31 2025
+  Total CPU time:     0:00:14
+  Total real time:    0:00:24
+  Peak memory (main): 1005.74MB
+
+
+*** Memory Usage v#1 (Current mem = 1007.145M, initial mem = 483.863M) ***
+*** Message Summary: 0 warning(s), 2 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:14.7, real=0:00:23.0, mem=1007.1M) ---
+

@@ -1,0 +1,18 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-64bit
+-access
++rwc
+-y
+/cad/FOUNDRY/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/verilog
++libext+.v
+-timescale
+1ns/1ps
+-f
+filelist.f
++define+POST_LAYOUT
++sdf_cmd_file=sdf.cmd
+-l
+postlayout_xrun.log

@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-YDIR
+/cad/FOUNDRY/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/verilog
+-LIBEXT
+.v
+-INCDIR
+.
+-DEFINE
+POST_LAYOUT

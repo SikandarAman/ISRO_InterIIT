@@ -1,0 +1,47 @@
+Timing Analysis Results (Vivado post-implementation STA)
+
+Clock constraint:
+
+Clock period: 10.0 ns
+
+Clock frequency: 100 MHz
+
+
+Setup timing:
+
+Worst Negative Slack (WNS): +7.195 ns
+
+Total Negative Slack (TNS): 0.000 ns
+
+Number of failing endpoints (setup): 0
+
+Total number of endpoints (setup): 325
+
+
+Hold timing:
+
+Worst Hold Slack (WHS): +0.145 ns
+
+Total Hold Slack (THS): 0.000 ns
+
+Number of failing endpoints (hold): 0
+
+Total number of endpoints (hold): 325
+
+
+Pulse-width timing:
+
+Worst Pulse Width Slack (WPWS): +4.600 ns
+
+Total Pulse Width Negative Slack (TPWS): 0.000 ns
+
+Number of failing endpoints (pulse width): 0
+
+Total number of endpoints (pulse width): 198
+
+
+Derived performance:
+
+Critical path delay: 2.805 ns
+
+Maximum achievable frequency (Fmax): ≈ 356.5 MHz
